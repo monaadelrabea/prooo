@@ -22,6 +22,11 @@
 		D1CF8A5A1CB17FCB00170705 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF8A391CB17FCB00170705 /* UIKit.framework */; };
 		D1CF8A621CB17FCB00170705 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1CF8A601CB17FCB00170705 /* InfoPlist.strings */; };
 		D1CF8A641CB17FCB00170705 /* projectVersion1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF8A631CB17FCB00170705 /* projectVersion1Tests.m */; };
+		D1CF8A701CB17FF500170705 /* session.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF8A6F1CB17FF500170705 /* session.m */; };
+		D1CF8A731CB1800A00170705 /* speakers.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF8A721CB1800A00170705 /* speakers.m */; };
+		D1CF8A761CB1805200170705 /* myAgenda.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF8A751CB1805200170705 /* myAgenda.m */; };
+		D1CF8A791CB1806C00170705 /* exhiptors.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF8A781CB1806C00170705 /* exhiptors.m */; };
+		D1CF8A7C1CB1BF4200170705 /* agendas.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF8A7B1CB1BF4200170705 /* agendas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,16 @@
 		D1CF8A5F1CB17FCB00170705 /* projectVersion1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "projectVersion1Tests-Info.plist"; sourceTree = "<group>"; };
 		D1CF8A611CB17FCB00170705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1CF8A631CB17FCB00170705 /* projectVersion1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectVersion1Tests.m; sourceTree = "<group>"; };
+		D1CF8A6E1CB17FF500170705 /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
+		D1CF8A6F1CB17FF500170705 /* session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = session.m; sourceTree = "<group>"; };
+		D1CF8A711CB1800A00170705 /* speakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speakers.h; sourceTree = "<group>"; };
+		D1CF8A721CB1800A00170705 /* speakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = speakers.m; sourceTree = "<group>"; };
+		D1CF8A741CB1805200170705 /* myAgenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAgenda.h; sourceTree = "<group>"; };
+		D1CF8A751CB1805200170705 /* myAgenda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAgenda.m; sourceTree = "<group>"; };
+		D1CF8A771CB1806C00170705 /* exhiptors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exhiptors.h; sourceTree = "<group>"; };
+		D1CF8A781CB1806C00170705 /* exhiptors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exhiptors.m; sourceTree = "<group>"; };
+		D1CF8A7A1CB1BF4200170705 /* agendas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agendas.h; sourceTree = "<group>"; };
+		D1CF8A7B1CB1BF4200170705 /* agendas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agendas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +99,7 @@
 		D1CF8A291CB17FCB00170705 = {
 			isa = PBXGroup;
 			children = (
+				D1CF8A6D1CB17FD600170705 /* beans */,
 				D1CF8A3B1CB17FCB00170705 /* projectVersion1 */,
 				D1CF8A5D1CB17FCB00170705 /* projectVersion1Tests */,
 				D1CF8A341CB17FCB00170705 /* Frameworks */,
@@ -153,6 +169,23 @@
 				D1CF8A601CB17FCB00170705 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1CF8A6D1CB17FD600170705 /* beans */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF8A6E1CB17FF500170705 /* session.h */,
+				D1CF8A6F1CB17FF500170705 /* session.m */,
+				D1CF8A711CB1800A00170705 /* speakers.h */,
+				D1CF8A721CB1800A00170705 /* speakers.m */,
+				D1CF8A741CB1805200170705 /* myAgenda.h */,
+				D1CF8A751CB1805200170705 /* myAgenda.m */,
+				D1CF8A771CB1806C00170705 /* exhiptors.h */,
+				D1CF8A781CB1806C00170705 /* exhiptors.m */,
+				D1CF8A7A1CB1BF4200170705 /* agendas.h */,
+				D1CF8A7B1CB1BF4200170705 /* agendas.m */,
+			);
+			name = beans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CF8A701CB17FF500170705 /* session.m in Sources */,
 				D1CF8A4F1CB17FCB00170705 /* ViewController.m in Sources */,
+				D1CF8A791CB1806C00170705 /* exhiptors.m in Sources */,
 				D1CF8A461CB17FCB00170705 /* AppDelegate.m in Sources */,
 				D1CF8A421CB17FCB00170705 /* main.m in Sources */,
+				D1CF8A731CB1800A00170705 /* speakers.m in Sources */,
+				D1CF8A761CB1805200170705 /* myAgenda.m in Sources */,
+				D1CF8A7C1CB1BF4200170705 /* agendas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
